@@ -8,3 +8,47 @@
     padding: 0;
 }
 
+/*******************
+*****  GENERIC  ****
+*******************/
+
+.flex{
+    display: flex;
+}
+
+.height60{
+    height: 60px;
+}
+
+.width100{
+    width: 100%;
+}
+
+.bgWhite{ background-color: white; }
+
+
+body{
+    background-color: black;
+}
+
+/*******************
+*****  HEADER  *****
+*******************/
+
+header{
+    height: 60px;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+header button{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: white;
+}
+
+header button:hover{
+    cursor: pointer;
+}
